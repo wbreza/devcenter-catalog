@@ -30,11 +30,7 @@
     },
     "repoUrl": {
       "type": "string",
-      "defaultValue":"https://github.com/azure-samples/todo-nodejs-mongo-swa-func",
-      "allowedValues": [
-          "https://github.com/azure-samples/todo-nodejs-mongo-swa-func",
-          "https://github.com/azure-samples/todo-python-mongo-swa-func"
-      ],
+      "defaultValue":"",
       "metadata": {
         "description": "URL of the GitHub repository containing the application code"
       }

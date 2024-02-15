@@ -9,7 +9,7 @@ templatePath: azuredeploy.json
 parameters:
   - id: runtimeType
     name: Runtime Type
-    description: 'Runtime Type of the container App runtime,eg python, nodejs or java.'
+    description: "Runtime Type of the container App runtime,eg python, nodejs or java."
     type: string
     required: true
     allowed:
@@ -24,6 +24,3 @@ parameters:
       - "https://github.com/azure-samples/todo-java-mongo-aca"
       - "https://github.com/azure-samples/todo-nodejs-mongo-aca"
       - "https://github.com/azure-samples/todo-python-mongo-aca"
-    
-    
-

@@ -11,12 +11,7 @@
   "parameters": {
     "repoUrl": {
       "type": "string",
-      "defaultValue":"https://github.com/azure-samples/todo-java-mongo",
-      "allowedValues": [
-          "https://github.com/azure-samples/todo-java-mongo",
-          "https://github.com/azure-samples/todo-nodejs-mongo",
-          "https://github.com/azure-samples/todo-python-mongo"
-      ],
+      "defaultValue":"",
       "metadata": {
         "description": "URL of the GitHub repository containing the application code"
       }

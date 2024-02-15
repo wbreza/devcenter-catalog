@@ -9,7 +9,7 @@ templatePath: azuredeploy.json
 parameters:
   - id: runtimeType
     name: Runtime Type
-    description: 'Runtime Type of the Function App runtime,eg python or nodejs'
+    description: "Runtime Type of the Function App runtime,eg python or nodejs"
     type: string
     required: true
     allowed:
@@ -22,6 +22,3 @@ parameters:
     allowed:
       - "https://github.com/azure-samples/todo-nodejs-mongo-swa-func"
       - "https://github.com/azure-samples/todo-python-mongo-swa-func"
-    
-    
-
